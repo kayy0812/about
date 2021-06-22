@@ -141,7 +141,7 @@ body {
 .header__avatar-slogan {
     display: none;
     position: absolute;
-    right: -40px;
+    left: 0;
     top: calc(100% + 20px);
     min-width: 200px;
     border-radius: 5px;
@@ -151,6 +151,7 @@ body {
 }
 
 .header__avatar-slogan-heading {
+    position: relative;
     border-bottom: 1px solid rgba(204, 204, 204, 0.5);
     padding: 3px 12px;
     color: rgba(0, 0, 0, 0.5);
@@ -165,11 +166,11 @@ body {
     font-style: oblique;
 }
 
-.header__avatar-slogan::after {
+.header__avatar-slogan-heading::after {
     content: "";
     position: absolute;
-    left: 55px;
-    bottom: 86px;
+    left: 42px;
+    bottom: 22px;
     border-width: 20px 30px;
     border-style: solid;
     border-color: transparent;
