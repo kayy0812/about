@@ -157,15 +157,6 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.header__avatar-slogan-text {
-    font-size: 1.4rem;
-    opacity: 0.9;
-    font-weight: bold;
-    line-height: 1.4;
-    padding: 3px 12px;
-    font-style: oblique;
-}
-
 .header__avatar-slogan-heading::after {
     content: "";
     position: absolute;
@@ -175,6 +166,15 @@ body {
     border-style: solid;
     border-color: transparent;
     border-bottom-color: #fff;
+}
+
+.header__avatar-slogan-text {
+    font-size: 1.4rem;
+    opacity: 0.9;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 3px 12px;
+    font-style: oblique;
 }
 
 .header__information {
