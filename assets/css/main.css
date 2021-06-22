@@ -153,7 +153,7 @@ body {
 .header__avatar-slogan-heading {
     position: relative;
     border-bottom: 1px solid rgba(204, 204, 204, 0.5);
-    padding: 3px 12px;
+    padding: 6px 12px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -161,7 +161,7 @@ body {
     content: "";
     position: absolute;
     left: 42px;
-    bottom: 22px;
+    bottom: 28px;
     border-width: 20px 30px;
     border-style: solid;
     border-color: transparent;
