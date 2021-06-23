@@ -56,6 +56,10 @@
         right: 6px;
     }
 
+    .container__information-socials {
+        height: 100%;
+    }
+
     .container__information-socials-btn {
         width: 100%;
         flex-direction: column;
