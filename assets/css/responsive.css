@@ -41,9 +41,6 @@
 
 /* Mobile */
 @media (max-width: 739px) {
-    body {
-        height: unset;
-    }
 
     .header__heart {
         width: 110px;
@@ -69,5 +66,11 @@
     .container__information-socials-btn-item {
         margin-right: 0;
         margin: 16px 0;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        height: unset;
     }
 }
